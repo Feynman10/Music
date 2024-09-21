@@ -43,6 +43,6 @@ def create_midi(notes, filename):
 
     mid.save(filename)
 
-message = "Hallå Där."
+message = "Hallå FRA."
 notes = text_to_notes(message)
 create_midi(notes, 'output.mid')
